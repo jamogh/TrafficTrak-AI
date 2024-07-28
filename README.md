@@ -13,28 +13,28 @@ TrafficTrak AI is a Python-based vehicle counting system using computer vision t
 
 ## Installation
 
-### 1. Clone the repository:
+#### Clone the repository:
    ```bash
    git clone https://github.com/kushalgupta1203/TrafficTrak-AI.git
    cd TrafficTrak-AI
    ```
-### 2. Create a virtual environment:
+#### Create a virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-### 3. Activate the virtual environment:
+#### Activate the virtual environment:
 
-#### Windows:
+###### Windows:
 ```bash
 venv\Scripts\activate
 ```
-#### macOS and Linux:
+###### macOS and Linux:
 ```bash
 source venv/bin/activate
 ```
-### 4. Install the required dependencies:
+#### Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -48,7 +48,7 @@ python main.py
 ```
 ## View the output:
 
-### The application will display two windows:
+#### The application will display two windows:
 
 - Original Video: Shows the video feed with detected vehicles and the counting line.
 - Detection: Displays the processed frame used for detection.
