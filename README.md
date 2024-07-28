@@ -44,7 +44,7 @@ Ensure the video file is in the correct directory:
 Place your video file in the project directory. Update the video path in the code if necessary.
 
 ```bash
-python main.py.py
+python main.py
 ```
 ## View the output:
 
