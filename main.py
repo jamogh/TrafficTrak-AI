@@ -22,9 +22,10 @@ def get_center(x, y, w, h):
     cy = y + y_center
     return cx, cy
 
+# E:\AMJ PROJECTS\TrafficTrak-AI\video.mp4
 
-cap = cv2.VideoCapture('C:\\Users\\kushal\\Downloads\\Counting Cars\\video.mp4')
-background_subtractor = cv2.bgsegm.createBackgroundSubtractorMOG()
+cap = cv2.VideoCapture('E:\AMJ PROJECTS\TrafficTrak-AI\video.mp4')
+background_subtractor = cv2.createBackgroundSubtractorMOG2()
 
 while True:
     ret, frame = cap.read()
